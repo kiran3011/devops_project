@@ -4,9 +4,11 @@ import com.visualpathit.account.model.User;
 
 /** {@author waheedk}!*/
 public interface UserService {
-	System.out.println("Hello");
+	
+	 
 	/** {@inheritDoc}} !*/
     void save(User user);
     /** {@inheritDoc}} !*/
     User findByUsername(String username);
+	System.out.println("Hello Java");  
 }
