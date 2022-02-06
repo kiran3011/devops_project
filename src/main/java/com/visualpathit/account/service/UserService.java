@@ -10,5 +10,5 @@ public interface UserService {
     void save(User user);
     /** {@inheritDoc}} !*/
     User findByUsername(String username);
-	System.out.println("Hello Java");  
+	  
 }
